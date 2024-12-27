@@ -756,3 +756,12 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+
+footer, .footer-text { /* Укажите правильный селектор вашего текста */
+      font-size: 5px;          /* Очень маленький текст */
+      color: rgba(128, 128, 128, 0.7); /* Светло-серый цвет с прозрачностью */
+      position: fixed;          /* Фиксируем текст внизу */
+      bottom: 5px;              /* Отступ от низа страницы */
+      width: 100%;              /* Растягиваем по ширине */
+      text-align: center;       /* Выравниваем по центру */
+  }
